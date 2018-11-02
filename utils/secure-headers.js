@@ -13,7 +13,7 @@ let secureHeaders = {
       value:  'DENY'
     },
     { name:   'X-Powered-By',
-      value:  'Awesomeness'
+      value:  'The Astronomican'
     },
     { name:   'X-XSS-Protection',
       value:  '1; mode=block'
