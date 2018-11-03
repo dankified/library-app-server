@@ -1,6 +1,6 @@
 const http = require('http');
-const secureHeaders = require('./utils/secure-headers');
-const corsHeaders = require('./utils/cors-headers');
+const secureHeaders = require('./utils/headerPolicies/secure-headers');
+const corsHeaders = require('./utils/headerPolicies/cors-headers');
 
 const booksHandler = require('./handlers/booksHandler');
 
